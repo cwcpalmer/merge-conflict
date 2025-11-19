@@ -5,7 +5,7 @@ def calculate_average_score(scores):
   for score in scores:
     total_score += score
 
-  # Removed floor division
+  # Removed floor division issue
   average_score = (total_score / len(scores))
 
   return average_score
